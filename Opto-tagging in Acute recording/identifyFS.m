@@ -1,9 +1,4 @@
 function idx_fs = identifyFS(x, y, z)
-% Parameters are chosed according to :
-% Anatol Kreitzer et al., (2016) Fast-Spiking Interneurons Supply Feedforward
-% Control of Bursting, Calcium, and Plasticity for Efficient Learning,
-% Cell.
-% nizheyi 20200506
 
     if nargin == 0
         [filename, pathname] = uigetfile('*.mat');
